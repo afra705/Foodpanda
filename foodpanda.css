@@ -1,0 +1,164 @@
+.bg-pink {
+    background-color: #713535;
+  }
+  
+  .text-pink {
+    color: #713535;
+  }
+  
+  .btn-pink {
+    background-color: #713535;
+    border: none;
+  }
+  
+  .close-button {
+    cursor: pointer;
+  }
+  /*image*/
+  .bg-white {
+    background-color: white;
+  }
+  
+  .text-pink {
+    color: #713535;
+  }
+  
+  .btn-pink {
+    background-color: #713535;
+    border: none;
+  }
+  
+  input::placeholder {
+    color: #aaa;
+  }
+  .image{
+    height: 550px;
+    background-color: rgb(241, 238, 238);
+  }
+  .abc{
+    margin-left: 955px;
+    margin-top: -335px;
+  }
+
+  .prep {
+    position: relative; /* Position relative for absolute positioning of overlay */
+    width: 100%; /* Full width */
+    height: 450px; /* Set height */
+    overflow: hidden; /* Hide overflow */
+}
+
+.prepare {
+    background-image: url('photo/home-vendor-bd.webp'); /* Set the background image */
+    background-size: cover; /* Cover the entire div */
+    background-position: center; /* Center the image */
+    height: 100%; /* Full height */
+    width: 100%; /* Full width */
+}
+
+.prep1 {
+    position: absolute; /* Position absolute to overlay on top */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust position to center */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 20px; /* Padding for the box */
+    border-radius: 10px; /* Rounded corners */
+    z-index: 2; /* On top of the image */
+    text-align: center; /* Center text */
+}
+
+.btn {
+    background-color: #713535; /* Button color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; 
+    cursor: pointer; 
+    border-radius: 5px;
+    transition: background-color 0.3s; 
+}
+
+.btn:hover {
+    background-color: #713535; 
+}
+/*city*/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.city {
+  margin: 10px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  height: 600;
+  width: 300px;
+  border-radius: 7%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.city:hover{
+  transform: scale(1.05);
+}
+.city img {
+  width: 100%;
+  height: 700;
+}
+.city-name {
+ text-align: center;
+ text-decoration: none;
+ margin-left: 125px;
+ color: #333;
+}
+.city-name:hover{
+  color: blue;
+}
+/**/
+.put{
+  border: 1px solid rgb(255, 255, 255);
+  background-color: #713535;
+  border-radius:2%;
+  width: 1300px;
+  height: 380px;
+}
+/*foooter*/
+
+/**/
+.footer {
+  padding: 40px 0;
+  border-top: 1px solid #ddd;
+  background-color: #f8f9fa;
+}
+.footer-links a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+.footer-links a:hover {
+  text-decoration: underline;
+}
+.footer-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.copyright {
+  text-align: left;
+  padding: 20px 0;
+  font-size: 14px;
+  color: #666;
+}
+/*2*/
+.footer1 {
+  padding: auto;
+  border-top: 1px solid #ddd;
+}
+.footer1 .social-icon { 
+  width: 30px;
+  height: 20px;
+
+  align-items: center;
+  justify-content: center;
+}
+.footer1 .social-icon i {
+  font-size: 23px;
+}

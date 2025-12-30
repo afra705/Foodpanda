@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Grid</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .bg-pink {
+    background-color: #713535;
+  }
+  
+  .text-pink {
+    color: #713535;
+  }
+  
+  .btn-pink {
+    background-color: #713535;
+    border: none;
+  }
+  
+  .close-button {
+    cursor: pointer;
+  }
+ /*city*/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.city {
+  margin: 10px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  height: 600;
+  width: 300px;
+  border-radius: 7%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.city:hover{
+  transform: scale(1.05);
+}
+.city img {
+  width: 100%;
+  height: 700;
+}
+.city-name {
+ text-align: center;
+ text-decoration: none;
+ margin-left: 125px;
+ color: #333;
+ padding: 40px;
+}
+.city-name:hover{
+  color: blue;
+}
+.rating {
+  margin-top: -35px;
+  margin-left: 200px ;
+}
+
+  </style>
+</head>
+<body>
+    <!----->
+<nav class="navbar  navbar-light bg-white shadow-sm" style="height: 10;">
+    <div class="container-fluid px-3">
+      <a class="navbar-brand align-items-center" href="#">            
+        <img src="photo/download (1).png" alt="Logo" height="30px" width="30px" style="margin-left: 50px; float: left; border-radius: 10%;" >
+            <h4 style="margin-right:10px ; color: #f0136f;">Foodpanda  </h4>
+      </a>
+      <div class="d-flex align-items-center" style="margin-right: 50px;">
+        <button class="btn btn-outline-secondary me-2 onclick="window.location.href='login.html';style="margin-right: 100px;" >Log in</button>
+        <button class="btn btn-pink me-2 text-white" style="background-color: #713535; margin-right: 100px;">Sign up</button>
+        <div class="dropdown me-3">
+        </div>
+        <i class="bi bi-cart fs-4"></i>
+      </div>
+    </div>
+  </nav>
+    <div class="container">
+    <h2>All Restaurants</h2>
+</div>
+
+  <!----->
+    <div class="container">
+        
+        <div class="city">
+            <img src="photo/afra.jpg" alt="Dhaka" height="230">
+            <a href="" class="city-name"></a>
+            <h3 style="margin-left: 6px; font-size: 20px;">Pizza Bar</h3>
+          <div class="rating" >⭐ 4.7<strong style="color: gray;">(100+)</strong> </div>
+        </div>
+        <div class="city">
+            <img src="photo/3.webp" alt="Chittagong"height="230">
+            <div class="city-name"></div>
+            <a href="" class="city-name"></a>
+            <div class="abc" style="margin-top: -90px;">
+            <h3 style="margin-left: 6px; font-size: 20px;">The Centro</h3>
+              <div class="rating" >⭐ 4.7<strong style="color: gray;">(100+)</strong> </div>
+           </div>
+        </div>
+        <div class="city">
+            <img src="photo/download1.jpeg" alt="Bagerhat"height="230">
+            <div class="city-name"></div>
+            <a href="" class="city-name"></a>
+            <div class="abc" style="margin-top: -90px;">
+            <h3 style="margin-left: 6px; font-size: 20px;">Italiano</h3>
+          <div class="rating" >⭐ 4.7<strong style="color: gray;">(100+)</strong> </div>
+        </div>
+        </div>
+        <div class="city">
+            <img src="photo/2.webp" alt="Bandarban"height="230">
+            <div class="city-name"></div>
+            <a href="" class="city-name"></a>
+            <div class="abc" style="margin-top: -90px;">
+            <h3 style="margin-left: 6px; font-size: 20px;">Busaba</h3>
+          <div class="rating" >⭐ 4.7<strong style="color: gray;">(100+)</strong> </div>
+        </div>
+        </div>
+        <div class="city">
+          <img src="photo/download.jpeg" alt="Bandarban"height="230">
+          <div class="city-name"></div>
+          <a href="" class="city-name"></a>
+          <div class="abc" style="margin-top: -80px;">
+            <h3 style="margin-left: 6px; font-size: 20px;">Milano</h3>
+          <div class="rating" >⭐ 4.7<strong style="color: gray;">(100+)</strong> </div>
+      </div>
+    </div>
+      <div class="city">
+        <img src="photo/hq720.jpg" alt="Bandarban"height="230">
+        <div class="city-name"></div>
+        <a href="" class="city-name"></a>
+        <div class="abc" style="margin-top: -80px;">
+            <h3 style="margin-left: 6px; font-size: 20px;">Grabout</h3>
+          <div class="rating" >⭐ 4.7<strong style="color: gray;">(100+)</strong> </div>
+        </div>
+      </div>
+      <div class="city">
+        <img src="photo/images (1).jpeg" alt="Bandarban"height="230">
+        <div class="city-name"></div>
+        <a href="" class="city-name"></a>
+        <div class="abc" style="margin-top: -80px;">
+            <h3 style="margin-left: 6px; font-size: 20px;">Ornet</h3>
+          <div class="rating" >⭐ 4.7<strong style="color: gray;">(100+)</strong> </div>
+        </div>
+      </div>
+      <div class="city">
+        <img src="photo/images.jpeg" alt="Bandarban"height="230">
+        <div class="city-name"></div>
+        <a href="" class="city-name"></a>
+        <div class="abc" style="margin-top: -80px;">
+            <h3 style="margin-left: 6px; font-size: 20px;">Manno Salwa</h3>
+          <div class="rating" >⭐ 4.7<strong style="color: gray;">(100+)</strong> </div>
+        </div>
+      </div>
+    <br>
+
+
+  <script src="script.js"></script>
+  <script src="bootstrap.min.js"></script>
+
+</body>
+</html>
